@@ -94,6 +94,4 @@ RUN chmod a+x /usr/local/bin/*.sh /app/artisan \
     && echo "appendonly yes" >> /etc/redis/redis.conf\
     && echo "dir /persist/redis/data" >> /etc/redis/redis.conf
 
-RUN php artisan serve --host 0.0.0.0 --port 10000
-
 EXPOSE 80
