@@ -50,7 +50,7 @@ ADD routes routes
 ADD tests tests
 
 # Manually run the command we deleted from composer.json earlier
-RUN php artisan package:discover --ansi
+#RUN php artisan package:discover --ansi
 
 
 FROM --platform=linux/amd64 ubuntu:23.04
